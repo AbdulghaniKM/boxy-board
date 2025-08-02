@@ -1,1 +1,19 @@
 @import 'tailwindcss';
+
+@theme {
+  --color-snow: #fffffa;
+  --color-rasberry: #1e000e;
+  --font-Hand: 'Handle', sans-serif;
+}
+
+@utility container {
+  margin-inline: auto;
+}
+
+@font-face {
+  font-family: 'Handle';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url('assets/font/Handle.ttf') format('truetype');
+}
